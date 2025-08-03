@@ -1,0 +1,683 @@
+[
+    {
+        "restaurant": "Spicy Bite",
+        "restaurantId": 1,
+        "location": "Downtown",
+        "items": [
+            {
+                "itemId": 1,
+                "name": "Burger",
+                "category": "fast food",
+                "price": 120,
+                "description": "Juicy grilled burger with lettuce and tomato.",
+                "image": "https://example.com/images/burger.jpg",
+                "rating": 4.5,
+                "available": true,
+                "stock": 50
+            },
+            {
+                "itemId": 2,
+                "name": "Fries",
+                "category": "fast food",
+                "price": 60,
+                "description": "Crispy golden potato fries.",
+                "image": "https://example.com/images/fries.jpg",
+                "rating": 4.2,
+                "available": true,
+                "stock": 100
+            },
+            {
+                "itemId": 3,
+                "name": "Pizza",
+                "category": "fast food",
+                "price": 150,
+                "description": "Cheesy pizza with fresh toppings.",
+                "image": "https://example.com/images/pizza.jpg",
+                "rating": 4.6,
+                "available": true,
+                "stock": 30
+            },
+            {
+                "itemId": 4,
+                "name": "Hot Dog",
+                "category": "fast food",
+                "price": 90,
+                "description": "Classic hot dog with mustard and ketchup.",
+                "image": "https://example.com/images/hotdog.jpg",
+                "rating": 4.3,
+                "available": true,
+                "stock": 40
+            },
+            {
+                "itemId": 5,
+                "name": "Chicken Nuggets",
+                "category": "fast food",
+                "price": 80,
+                "description": "Crispy chicken nuggets served with dip.",
+                "image": "https://example.com/images/nuggets.jpg",
+                "rating": 4.4,
+                "available": true,
+                "stock": 60
+            },
+            {
+                "itemId": 6,
+                "name": "Spring Rolls",
+                "category": "snack",
+                "price": 70,
+                "description": "Vegetable spring rolls with sweet chili sauce.",
+                "image": "https://example.com/images/springrolls.jpg",
+                "rating": 4.1,
+                "available": true,
+                "stock": 80
+            },
+            {
+                "itemId": 7,
+                "name": "Samosa",
+                "category": "snack",
+                "price": 40,
+                "description": "Spicy potato-filled samosas.",
+                "image": "https://example.com/images/samosa.jpg",
+                "rating": 4.2,
+                "available": true,
+                "stock": 120
+            },
+            {
+                "itemId": 8,
+                "name": "Nachos",
+                "category": "snack",
+                "price": 90,
+                "description": "Nachos with cheese and salsa.",
+                "image": "https://example.com/images/nachos.jpg",
+                "rating": 4.3,
+                "available": true,
+                "stock": 70
+            },
+            {
+                "itemId": 9,
+                "name": "Popcorn",
+                "category": "snack",
+                "price": 50,
+                "description": "Buttery popcorn.",
+                "image": "https://example.com/images/popcorn.jpg",
+                "rating": 4.0,
+                "available": true,
+                "stock": 90
+            },
+            {
+                "itemId": 10,
+                "name": "Garlic Bread",
+                "category": "snack",
+                "price": 60,
+                "description": "Toasted garlic bread.",
+                "image": "https://example.com/images/garlicbread.jpg",
+                "rating": 4.2,
+                "available": true,
+                "stock": 60
+            },
+            {
+                "itemId": 11,
+                "name": "Paneer Tikka",
+                "category": "lunch",
+                "price": 140,
+                "description": "Grilled paneer tikka with spices.",
+                "image": "https://example.com/images/paneertikka.jpg",
+                "rating": 4.5,
+                "available": true,
+                "stock": 40
+            },
+            {
+                "itemId": 12,
+                "name": "Chicken Curry",
+                "category": "lunch",
+                "price": 160,
+                "description": "Spicy chicken curry with rice.",
+                "image": "https://example.com/images/chickencurry.jpg",
+                "rating": 4.6,
+                "available": true,
+                "stock": 35
+            },
+            {
+                "itemId": 13,
+                "name": "Dal Makhani",
+                "category": "lunch",
+                "price": 120,
+                "description": "Creamy dal makhani served with naan.",
+                "image": "https://example.com/images/dalmakhani.jpg",
+                "rating": 4.4,
+                "available": true,
+                "stock": 50
+            },
+            {
+                "itemId": 14,
+                "name": "Veg Biryani",
+                "category": "lunch",
+                "price": 130,
+                "description": "Aromatic veg biryani with raita.",
+                "image": "https://example.com/images/vegbiryani.jpg",
+                "rating": 4.3,
+                "available": true,
+                "stock": 45
+            },
+            {
+                "itemId": 15,
+                "name": "Fish Fry",
+                "category": "lunch",
+                "price": 170,
+                "description": "Crispy fried fish with tartar sauce.",
+                "image": "https://example.com/images/fishfry.jpg",
+                "rating": 4.5,
+                "available": true,
+                "stock": 25
+            },
+            {
+                "itemId": 16,
+                "name": "Butter Chicken",
+                "category": "dinner",
+                "price": 180,
+                "description": "Rich butter chicken with naan.",
+                "image": "https://example.com/images/butterchicken.jpg",
+                "rating": 4.7,
+                "available": true,
+                "stock": 30
+            },
+            {
+                "itemId": 17,
+                "name": "Mutton Rogan Josh",
+                "category": "dinner",
+                "price": 200,
+                "description": "Spicy mutton rogan josh.",
+                "image": "https://example.com/images/roganjosh.jpg",
+                "rating": 4.6,
+                "available": true,
+                "stock": 20
+            },
+            {
+                "itemId": 18,
+                "name": "Palak Paneer",
+                "category": "dinner",
+                "price": 150,
+                "description": "Paneer cooked in spinach gravy.",
+                "image": "https://example.com/images/palakpaneer.jpg",
+                "rating": 4.4,
+                "available": true,
+                "stock": 35
+            },
+            {
+                "itemId": 19,
+                "name": "Naan",
+                "category": "dinner",
+                "price": 40,
+                "description": "Soft and fluffy naan bread.",
+                "image": "https://example.com/images/naan.jpg",
+                "rating": 4.3,
+                "available": true,
+                "stock": 100
+            },
+            {
+                "itemId": 20,
+                "name": "Rice Pulao",
+                "category": "dinner",
+                "price": 100,
+                "description": "Fragrant rice pulao with vegetables.",
+                "image": "https://example.com/images/ricepulao.jpg",
+                "rating": 4.2,
+                "available": true,
+                "stock": 60
+            }
+        ]
+    },
+    {
+        "restaurant": "Urban Eats",
+        "restaurantId": 2,
+        "location": "Uptown",
+        "items": [
+            {
+                "itemId": 21,
+                "name": "Cheeseburger",
+                "category": "fast food",
+                "price": 130,
+                "description": "Classic cheeseburger with cheddar cheese.",
+                "image": "https://example.com/images/cheeseburger.jpg",
+                "rating": 4.6,
+                "available": true,
+                "stock": 40
+            },
+            {
+                "itemId": 22,
+                "name": "Chicken Sandwich",
+                "category": "fast food",
+                "price": 110,
+                "description": "Grilled chicken sandwich with mayo.",
+                "image": "https://example.com/images/chicken_sandwich.jpg",
+                "rating": 4.3,
+                "available": true,
+                "stock": 60
+            },
+            {
+                "itemId": 23,
+                "name": "Veggie Wrap",
+                "category": "fast food",
+                "price": 120,
+                "description": "Healthy wrap with mixed vegetables.",
+                "image": "https://example.com/images/veggie_wrap.jpg",
+                "rating": 4.3,
+                "available": true,
+                "stock": 50
+            },
+            {
+                "itemId": 24,
+                "name": "Tacos",
+                "category": "fast food",
+                "price": 100,
+                "description": "Mexican tacos with beef and salsa.",
+                "image": "https://example.com/images/tacos.jpg",
+                "rating": 4.4,
+                "available": true,
+                "stock": 50
+            },
+            {
+                "itemId": 25,
+                "name": "Onion Rings",
+                "category": "fast food",
+                "price": 70,
+                "description": "Crispy onion rings.",
+                "image": "https://example.com/images/onionrings.jpg",
+                "rating": 4.2,
+                "available": true,
+                "stock": 80
+            },
+            {
+                "itemId": 26,
+                "name": "Mozzarella Sticks",
+                "category": "fast food",
+                "price": 90,
+                "description": "Fried mozzarella sticks.",
+                "image": "https://example.com/images/mozzarellasticks.jpg",
+                "rating": 4.3,
+                "available": true,
+                "stock": 70
+            },
+            {
+                "itemId": 27,
+                "name": "Chips",
+                "category": "snack",
+                "price": 50,
+                "description": "Potato chips.",
+                "image": "https://example.com/images/chips.jpg",
+                "rating": 4.1,
+                "available": true,
+                "stock": 100
+            },
+            {
+                "itemId": 28,
+                "name": "Fruit Salad",
+                "category": "snack",
+                "price": 80,
+                "description": "Fresh fruit salad.",
+                "image": "https://example.com/images/fruitsalad.jpg",
+                "rating": 4.2,
+                "available": true,
+                "stock": 60
+            },
+            {
+                "itemId": 29,
+                "name": "Cupcakes",
+                "category": "snack",
+                "price": 60,
+                "description": "Chocolate cupcakes.",
+                "image": "https://example.com/images/cupcakes.jpg",
+                "rating": 4.3,
+                "available": true,
+                "stock": 40
+            },
+            {
+                "itemId": 30,
+                "name": "Cookies",
+                "category": "snack",
+                "price": 40,
+                "description": "Fresh baked cookies.",
+                "image": "https://example.com/images/cookies.jpg",
+                "rating": 4.0,
+                "available": true,
+                "stock": 80
+            },
+            {
+                "itemId": 31,
+                "name": "Pretzels",
+                "category": "snack",
+                "price": 30,
+                "description": "Salted pretzels.",
+                "image": "https://example.com/images/pretzels.jpg",
+                "rating": 4.2,
+                "available": true,
+                "stock": 90
+            },
+            {
+                "itemId": 32,
+                "name": "Grilled Chicken",
+                "category": "lunch",
+                "price": 150,
+                "description": "Grilled chicken breast.",
+                "image": "https://example.com/images/grilledchicken.jpg",
+                "rating": 4.5,
+                "available": true,
+                "stock": 50
+            },
+            {
+                "itemId": 33,
+                "name": "Pasta Alfredo",
+                "category": "lunch",
+                "price": 140,
+                "description": "Creamy Alfredo pasta.",
+                "image": "https://example.com/images/pastaalfredo.jpg",
+                "rating": 4.6,
+                "available": true,
+                "stock": 40
+            },
+            {
+                "itemId": 34,
+                "name": "Veg Wrap",
+                "category": "lunch",
+                "price": 120,
+                "description": "Vegetable wrap with sauce.",
+                "image": "https://example.com/images/vegwrap.jpg",
+                "rating": 4.4,
+                "available": true,
+                "stock": 60
+            },
+            {
+                "itemId": 35,
+                "name": "Egg Curry",
+                "category": "lunch",
+                "price": 130,
+                "description": "Egg curry with rice.",
+                "image": "https://example.com/images/eggcurry.jpg",
+                "rating": 4.3,
+                "available": true,
+                "stock": 45
+            },
+            {
+                "itemId": 36,
+                "name": "Paneer Butter Masala",
+                "category": "lunch",
+                "price": 140,
+                "description": "Paneer in creamy tomato gravy.",
+                "image": "https://example.com/images/paneerbuttermasala.jpg",
+                "rating": 4.5,
+                "available": true,
+                "stock": 40
+            },
+            {
+                "itemId": 37,
+                "name": "Steak",
+                "category": "dinner",
+                "price": 200,
+                "description": "Grilled steak with sauce.",
+                "image": "https://example.com/images/steak.jpg",
+                "rating": 4.7,
+                "available": true,
+                "stock": 30
+            },
+            {
+                "itemId": 38,
+                "name": "Grilled Salmon",
+                "category": "dinner",
+                "price": 220,
+                "description": "Grilled salmon fillet.",
+                "image": "https://example.com/images/grilledsalmon.jpg",
+                "rating": 4.6,
+                "available": true,
+                "stock": 20
+            },
+            {
+                "itemId": 39,
+                "name": "Dal Tadka",
+                "category": "dinner",
+                "price": 120,
+                "description": "Yellow dal with tadka.",
+                "image": "https://example.com/images/daltadka.jpg",
+                "rating": 4.4,
+                "available": true,
+                "stock": 35
+            },
+            {
+                "itemId": 40,
+                "name": "Chapati",
+                "category": "dinner",
+                "price": 20,
+                "description": "Whole wheat chapati.",
+                "image": "https://example.com/images/chapati.jpg",
+                "rating": 4.3,
+                "available": true,
+                "stock": 100
+            }
+        ]
+    },
+    {
+        "restaurant": "Taste Hub",
+        "restaurantId": 3,
+        "location": "Midtown",
+        "items": [
+            {
+                "itemId": 41,
+                "name": "Veg Pizza",
+                "category": "fast food",
+                "price": 150,
+                "description": "Pizza loaded with fresh vegetables.",
+                "image": "https://example.com/images/veg_pizza.jpg",
+                "rating": 4.2,
+                "available": true,
+                "stock": 30
+            },
+            {
+                "itemId": 42,
+                "name": "Chicken Burger",
+                "category": "fast food",
+                "price": 125,
+                "description": "Burger with crispy chicken patty.",
+                "image": "https://example.com/images/chicken_burger.jpg",
+                "rating": 4.5,
+                "available": true,
+                "stock": 40
+            },
+            {
+                "itemId": 43,
+                "name": "Veg Sandwich",
+                "category": "fast food",
+                "price": 80,
+                "description": "Sandwich with fresh veggies.",
+                "image": "https://example.com/images/veg_sandwich.jpg",
+                "rating": 4.1,
+                "available": true,
+                "stock": 60
+            },
+            {
+                "itemId": 44,
+                "name": "Chicken Roll",
+                "category": "fast food",
+                "price": 100,
+                "description": "Chicken roll with spicy sauce.",
+                "image": "https://example.com/images/chicken_roll.jpg",
+                "rating": 4.3,
+                "available": true,
+                "stock": 50
+            },
+            {
+                "itemId": 45,
+                "name": "French Toast",
+                "category": "fast food",
+                "price": 70,
+                "description": "Sweet French toast.",
+                "image": "https://example.com/images/french_toast.jpg",
+                "rating": 4.2,
+                "available": true,
+                "stock": 80
+            },
+            {
+                "itemId": 46,
+                "name": "Paneer Pakora",
+                "category": "snack",
+                "price": 60,
+                "description": "Paneer fritters.",
+                "image": "https://example.com/images/paneer_pakora.jpg",
+                "rating": 4.3,
+                "available": true,
+                "stock": 70
+            },
+            {
+                "itemId": 47,
+                "name": "Veg Cutlet",
+                "category": "snack",
+                "price": 50,
+                "description": "Vegetable cutlets.",
+                "image": "https://example.com/images/veg_cutlet.jpg",
+                "rating": 4.1,
+                "available": true,
+                "stock": 100
+            },
+            {
+                "itemId": 48,
+                "name": "Corn Chaat",
+                "category": "snack",
+                "price": 40,
+                "description": "Spicy corn chaat.",
+                "image": "https://example.com/images/corn_chaat.jpg",
+                "rating": 4.2,
+                "available": true,
+                "stock": 60
+            },
+            {
+                "itemId": 49,
+                "name": "Bread Sticks",
+                "category": "snack",
+                "price": 30,
+                "description": "Crunchy bread sticks.",
+                "image": "https://example.com/images/bread_sticks.jpg",
+                "rating": 4.0,
+                "available": true,
+                "stock": 80
+            },
+            {
+                "itemId": 50,
+                "name": "Veg Puff",
+                "category": "snack",
+                "price": 40,
+                "description": "Veg puff pastry.",
+                "image": "https://example.com/images/veg_puff.jpg",
+                "rating": 4.2,
+                "available": true,
+                "stock": 90
+            },
+            {
+                "itemId": 51,
+                "name": "Chicken Curry",
+                "category": "lunch",
+                "price": 160,
+                "description": "Spicy chicken curry.",
+                "image": "https://example.com/images/chicken_curry.jpg",
+                "rating": 4.5,
+                "available": true,
+                "stock": 50
+            },
+            {
+                "itemId": 52,
+                "name": "Veg Pulao",
+                "category": "lunch",
+                "price": 120,
+                "description": "Vegetable pulao.",
+                "image": "https://example.com/images/veg_pulao.jpg",
+                "rating": 4.6,
+                "available": true,
+                "stock": 40
+            },
+            {
+                "itemId": 53,
+                "name": "Dal Fry",
+                "category": "lunch",
+                "price": 110,
+                "description": "Dal fry with spices.",
+                "image": "https://example.com/images/dal_fry.jpg",
+                "rating": 4.4,
+                "available": true,
+                "stock": 60
+            },
+            {
+                "itemId": 54,
+                "name": "Egg Biryani",
+                "category": "lunch",
+                "price": 130,
+                "description": "Egg biryani with raita.",
+                "image": "https://example.com/images/egg_biryani.jpg",
+                "rating": 4.3,
+                "available": true,
+                "stock": 45
+            },
+            {
+                "itemId": 55,
+                "name": "Paneer Bhurji",
+                "category": "lunch",
+                "price": 140,
+                "description": "Paneer bhurji with spices.",
+                "image": "https://example.com/images/paneer_bhurji.jpg",
+                "rating": 4.5,
+                "available": true,
+                "stock": 40
+            },
+            {
+                "itemId": 56,
+                "name": "Chicken Korma",
+                "category": "dinner",
+                "price": 180,
+                "description": "Chicken korma with naan.",
+                "image": "https://example.com/images/chicken_korma.jpg",
+                "rating": 4.7,
+                "available": true,
+                "stock": 30
+            },
+            {
+                "itemId": 57,
+                "name": "Veg Handi",
+                "category": "dinner",
+                "price": 150,
+                "description": "Veg handi with spices.",
+                "image": "https://example.com/images/veg_handi.jpg",
+                "rating": 4.6,
+                "available": true,
+                "stock": 20
+            },
+            {
+                "itemId": 58,
+                "name": "Butter Naan",
+                "category": "dinner",
+                "price": 40,
+                "description": "Butter naan bread.",
+                "image": "https://example.com/images/butter_naan.jpg",
+                "rating": 4.4,
+                "available": true,
+                "stock": 35
+            },
+            {
+                "itemId": 59,
+                "name": "Gulab Jamun",
+                "category": "dinner",
+                "price": 60,
+                "description": "Sweet gulab jamun.",
+                "image": "https://example.com/images/gulab_jamun.jpg",
+                "rating": 4.3,
+                "available": true,
+                "stock": 100
+            },
+            {
+                "itemId": 60,
+                "name": "Malai Kofta",
+                "category": "dinner",
+                "price": 130,
+                "description": "Malai kofta in creamy gravy.",
+                "image": "https://example.com/images/malai_kofta.jpg",
+                "rating": 4.2,
+                "available": true,
+                "stock": 60
+            }
+        ]
+    }
+]
