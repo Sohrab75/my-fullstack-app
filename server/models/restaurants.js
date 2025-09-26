@@ -13,7 +13,15 @@ const restaurantSchema = new mongoose.Schema({
         image: String,
         rating: Number,
         available: Boolean,
-        stock: Number
+        stock: Number,
+        reviews: [
+          {
+            user: String,
+            comment: String,
+            rating: Number,
+            date: String
+          }
+        ]
       }
     ]
 });

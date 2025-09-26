@@ -1,12 +1,18 @@
 const mongoose = require('mongoose');
 const fs = require('fs');
 const path = require('path');
+const { type } = require('os');
 require('dotenv').config({ path: path.resolve(__dirname, '.env') });
 
 const restaurantSchema = new mongoose.Schema({
   restaurant: String,
   restaurantId: Number,
   location: String,
+  address: String,
+  contact: String,
+  cuisine: String,
+  rating: Number,
+  timings: String,
   items: [
     {
       itemId: Number,
@@ -17,7 +23,16 @@ const restaurantSchema = new mongoose.Schema({
       image: String,
       rating: Number,
       available: Boolean,
-      stock: Number
+      stock: Number,
+      type: { type: String },
+      reviews: [
+        {
+          user: String,
+          comment: String,
+          rating: Number,
+          date: String
+        }
+      ]
     }
   ]
 });

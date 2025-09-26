@@ -24,7 +24,15 @@ export const apiConfig = createApi({
         method: "GET"
       }),
     }),
+    // In apiConfig.js or your RTK Query API slice
+    uploadProfilePicture: builder.mutation({
+      query: (formData) => ({
+        url: '/user/profile-picture', // your backend endpoint
+        method: 'POST',
+        body: formData,
+      }),
+    }),
   }),
 })
 
-export const { useGetAllDataQuery, useGetRestaurantByIdQuery, useGetItemByIdQuery } = apiConfig
+export const { useGetAllDataQuery, useGetRestaurantByIdQuery, useGetItemByIdQuery, useUploadProfilePictureMutation } = apiConfig

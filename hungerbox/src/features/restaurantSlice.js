@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     restaurants: [],
-    selectedRestaurant: null,
+    selectedRestaurant: localStorage.getItem("selectedRestaurantId")|| null,
     selectedItem: null,
 }
 
@@ -16,6 +16,7 @@ const restaurantSlice = createSlice({
         setSelectedRestaurant: (state, action) => {
             console.log("Selected Restaurant ID:", action.payload); // Debugging log to check selected restaurant ID
             state.selectedRestaurant = action.payload;
+            localStorage.setItem("selectedRestaurantId", action.payload);
         },
         setSelectedItem: (state, action) => {
             state.selectedItem = action.payload;

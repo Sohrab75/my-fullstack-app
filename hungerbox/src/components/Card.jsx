@@ -2,14 +2,23 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { setSelectedRestaurant } from "../features/restaurantSlice";
 import { Link } from "react-router-dom";
+import useAsync from "../hooks/useAsync";
 
 const Card = ({restaurant}) => {
+   const fetchUsers = () =>
+    fetch('https://jsonplaceholder.typicode.com/users').then((res) =>
+      res.json()
+    );
+
+  const { data: users, error, loading, run } = useAsync(fetchUsers, []);
+  console.log(users, error, loading, run);
+
     const dispatch = useDispatch();
     if (!restaurant) return null; // Handle case where restaurant data is not available
   return (
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
-        <img className="rounded-t-lg" src={restaurant.image} alt={restaurant.name} />
+        <img className="rounded-t-lg" src={`https://raw.githubusercontent.com/Sohrab75/my-fullstack-app/main/hungerbox/src/assets/img/gallery/gallery-${restaurant.restaurantId}.jpg`} alt={restaurant.name} />
       </a>
       <div className="p-5">
         <a href="#">

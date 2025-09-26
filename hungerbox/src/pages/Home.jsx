@@ -5,9 +5,6 @@ import { useGetAllDataQuery } from "../app/apiConfig"
 import Card from '../components/Card'
 import { setRestaurants } from '../features/restaurantSlice'
 import { useDispatch, useSelector } from 'react-redux'
-import restOneImg from "../assets/img/gallery/gallery-3.jpg";
-import restTwoImg from "../assets/img/gallery/gallery-4.jpg";
-import restThreeImg from "../assets/img/gallery/gallery-5.jpg";
 
 const Home = () => {
   const dispatch = useDispatch();

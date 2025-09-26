@@ -1,17 +1,30 @@
-import { Routes, Route } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import './App.css'
-import Home from './pages/Home';
-import Restaurants from './pages/Restaurants';
+import Routing from './routes/Routing';
+import ErrorBoundary from './error-boundary/ErrorBoundary';
 
 function App() {
-  
+  const [isOnline, setIsOnline] = useState(navigator.onLine);
+  useEffect(() => {
+    const handleOnline = () => setIsOnline(true);
+    const handleOffline = () => setIsOnline(false);
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+    return () => {
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+    };
+  }, []);
+
+  if (!isOnline) {
+    return <div>No internet connection</div>;
+  }
 
   return (
-    <Routes>
-      <Route path="/"  element={ <Home/>} />
-      <Route path="/restaurant/:id"  element={ <Restaurants/>} />
-
-    </Routes>
+    <ErrorBoundary>
+      <Routing />
+    </ErrorBoundary>
+    
   )
 }
 

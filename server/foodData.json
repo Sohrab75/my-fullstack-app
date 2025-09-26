@@ -3,6 +3,11 @@
         "restaurant": "Spicy Bite",
         "restaurantId": 1,
         "location": "Downtown",
+        "address": "123 Main St, Downtown",
+        "contact": "+1234567890",
+        "cuisine": "Indian, Fast Food",
+        "rating": 4.5,
+        "timings": "10:00 AM - 11:00 PM",
         "items": [
             {
                 "itemId": 1,
@@ -10,10 +15,31 @@
                 "category": "fast food",
                 "price": 120,
                 "description": "Juicy grilled burger with lettuce and tomato.",
-                "image": "https://example.com/images/burger.jpg",
+                "image": "https://images.themodernproper.com/production/posts/2016/ClassicCheeseBurger_9.jpg?w=1200&h=1200&q=60&fm=jpg&fit=crop&dm=1749310239&s=463b18fc3bb51dc5d96e866c848527c4",
                 "rating": 4.5,
                 "available": true,
-                "stock": 50
+                "stock": 50,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 3.9,
+                        "date": "2025-08-07"
+                    },
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 3.5,
+                        "date": "2025-08-17"
+                    },
+                    {
+                        "user": "Olivia Garcia",
+                        "comment": "Crispy and well cooked.",
+                        "rating": 3.7,
+                        "date": "2025-08-14"
+                    }
+                ]
             },
             {
                 "itemId": 2,
@@ -21,10 +47,31 @@
                 "category": "fast food",
                 "price": 60,
                 "description": "Crispy golden potato fries.",
-                "image": "https://example.com/images/fries.jpg",
+                "image": "https://thesaltedpotato.com/wp-content/uploads/elementor/thumbs/twice-fried-fries-r5iw2utg66f3cxdkbpzpbtoa3lnsvtuv13yrmgr1l0.webp",
                 "rating": 4.2,
                 "available": true,
-                "stock": 100
+                "stock": 100,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Delicious and fresh!",
+                        "rating": 4.4,
+                        "date": "2025-08-11"
+                    },
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 4.4,
+                        "date": "2025-08-07"
+                    },
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 4.1,
+                        "date": "2025-08-10"
+                    }
+                ]
             },
             {
                 "itemId": 3,
@@ -32,21 +79,63 @@
                 "category": "fast food",
                 "price": 150,
                 "description": "Cheesy pizza with fresh toppings.",
-                "image": "https://example.com/images/pizza.jpg",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/1200px-Pizza-3007395.jpg",
                 "rating": 4.6,
                 "available": true,
-                "stock": 30
+                "stock": 30,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Olivia Garcia",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 3.9,
+                        "date": "2025-07-27"
+                    },
+                    {
+                        "user": "Sophia Lee",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 4.7,
+                        "date": "2025-08-03"
+                    },
+                    {
+                        "user": "Ava Martinez",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 4.6,
+                        "date": "2025-08-20"
+                    },
+                    {
+                        "user": "Sophia Lee",
+                        "comment": "Tasty and filling!",
+                        "rating": 4.7,
+                        "date": "2025-08-19"
+                    }
+                ]
             },
             {
                 "itemId": 4,
-                "name": "Hot Dog",
+                "name": "Hot Mutton",
                 "category": "fast food",
                 "price": 90,
-                "description": "Classic hot dog with mustard and ketchup.",
-                "image": "https://example.com/images/hotdog.jpg",
+                "description": "Classic hot mutton with mustard and ketchup.",
+                "image": "https://foodiesterminal.com/wp-content/uploads/2019/01/Mutton-Rogan-Josh-1.jpg",
                 "rating": 4.3,
                 "available": true,
-                "stock": 40
+                "stock": 40,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "James Wilson",
+                        "comment": "Good portion size.",
+                        "rating": 3.6,
+                        "date": "2025-08-04"
+                    },
+                    {
+                        "user": "James Wilson",
+                        "comment": "Loved the flavors!",
+                        "rating": 3.7,
+                        "date": "2025-08-06"
+                    }
+                ]
             },
             {
                 "itemId": 5,
@@ -54,10 +143,37 @@
                 "category": "fast food",
                 "price": 80,
                 "description": "Crispy chicken nuggets served with dip.",
-                "image": "https://example.com/images/nuggets.jpg",
+                "image": "https://www.allrecipes.com/thmb/Dw_WFOvCds43ksPxkrE60qxcwSk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-8849-HomemadeChickenNuggets-beauty-4x3-ca915ee936054272af1b506181923c7f.jpg",
                 "rating": 4.4,
                 "available": true,
-                "stock": 60
+                "stock": 60,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "John Doe",
+                        "comment": "Good portion size.",
+                        "rating": 5.0,
+                        "date": "2025-07-28"
+                    },
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 4.5,
+                        "date": "2025-08-04"
+                    },
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 3.9,
+                        "date": "2025-08-15"
+                    },
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Delicious and fresh!",
+                        "rating": 3.6,
+                        "date": "2025-08-11"
+                    }
+                ]
             },
             {
                 "itemId": 6,
@@ -65,10 +181,31 @@
                 "category": "snack",
                 "price": 70,
                 "description": "Vegetable spring rolls with sweet chili sauce.",
-                "image": "https://example.com/images/springrolls.jpg",
+                "image": "https://thaicaliente.com/wp-content/uploads/2020/09/Spring-Roll-Feature.jpg",
                 "rating": 4.1,
                 "available": true,
-                "stock": 80
+                "stock": 80,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Would definitely order again.",
+                        "rating": 4.4,
+                        "date": "2025-08-07"
+                    },
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 3.5,
+                        "date": "2025-08-21"
+                    },
+                    {
+                        "user": "John Doe",
+                        "comment": "Delicious and fresh!",
+                        "rating": 4.5,
+                        "date": "2025-08-03"
+                    }
+                ]
             },
             {
                 "itemId": 7,
@@ -76,10 +213,37 @@
                 "category": "snack",
                 "price": 40,
                 "description": "Spicy potato-filled samosas.",
-                "image": "https://example.com/images/samosa.jpg",
+                "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/samosa-recipe.jpg",
                 "rating": 4.2,
                 "available": true,
-                "stock": 120
+                "stock": 120,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Ava Martinez",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 4.8,
+                        "date": "2025-08-17"
+                    },
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Crispy and well cooked.",
+                        "rating": 4.0,
+                        "date": "2025-07-30"
+                    },
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 4.7,
+                        "date": "2025-07-24"
+                    },
+                    {
+                        "user": "John Doe",
+                        "comment": "Not as expected, but okay.",
+                        "rating": 3.6,
+                        "date": "2025-08-18"
+                    }
+                ]
             },
             {
                 "itemId": 8,
@@ -87,10 +251,31 @@
                 "category": "snack",
                 "price": 90,
                 "description": "Nachos with cheese and salsa.",
-                "image": "https://example.com/images/nachos.jpg",
+                "image": "https://www.simplyrecipes.com/thmb/xTCx1mKCjjPYgGasys_JGafuem0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__04__Nachos-LEAD-3-e6dd6cbb61474c9889e1524b3796601e.jpg",
                 "rating": 4.3,
                 "available": true,
-                "stock": 70
+                "stock": 70,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Sophia Lee",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 5.0,
+                        "date": "2025-08-11"
+                    },
+                    {
+                        "user": "John Doe",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 3.6,
+                        "date": "2025-07-30"
+                    },
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Tasty and filling!",
+                        "rating": 4.0,
+                        "date": "2025-07-27"
+                    }
+                ]
             },
             {
                 "itemId": 9,
@@ -98,10 +283,37 @@
                 "category": "snack",
                 "price": 50,
                 "description": "Buttery popcorn.",
-                "image": "https://example.com/images/popcorn.jpg",
+                "image": "https://www.flippedoutfood.com/wp-content/uploads/2022/02/Movie-Theater-Popcorn-featured-540x720.jpg",
                 "rating": 4.0,
                 "available": true,
-                "stock": 90
+                "stock": 90,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Ava Martinez",
+                        "comment": "Crispy and well cooked.",
+                        "rating": 4.7,
+                        "date": "2025-08-10"
+                    },
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Good portion size.",
+                        "rating": 4.0,
+                        "date": "2025-07-24"
+                    },
+                    {
+                        "user": "John Doe",
+                        "comment": "Delicious and fresh!",
+                        "rating": 3.6,
+                        "date": "2025-08-04"
+                    },
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 4.7,
+                        "date": "2025-08-01"
+                    }
+                ]
             },
             {
                 "itemId": 10,
@@ -109,10 +321,31 @@
                 "category": "snack",
                 "price": 60,
                 "description": "Toasted garlic bread.",
-                "image": "https://example.com/images/garlicbread.jpg",
+                "image": "https://www.ambitiouskitchen.com/wp-content/uploads/2023/02/Garlic-Bread-4.jpg",
                 "rating": 4.2,
                 "available": true,
-                "stock": 60
+                "stock": 60,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 3.8,
+                        "date": "2025-07-30"
+                    },
+                    {
+                        "user": "Ava Martinez",
+                        "comment": "Good portion size.",
+                        "rating": 3.6,
+                        "date": "2025-08-15"
+                    },
+                    {
+                        "user": "Olivia Garcia",
+                        "comment": "Good portion size.",
+                        "rating": 4.4,
+                        "date": "2025-08-02"
+                    }
+                ]
             },
             {
                 "itemId": 11,
@@ -120,10 +353,37 @@
                 "category": "lunch",
                 "price": 140,
                 "description": "Grilled paneer tikka with spices.",
-                "image": "https://example.com/images/paneertikka.jpg",
+                "image": "https://www.cookwithmanali.com/wp-content/uploads/2015/07/Restaurant-Style-Recipe-Paneer-Tikka.jpg",
                 "rating": 4.5,
                 "available": true,
-                "stock": 40
+                "stock": 40,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "John Doe",
+                        "comment": "Loved the flavors!",
+                        "rating": 4.4,
+                        "date": "2025-07-24"
+                    },
+                    {
+                        "user": "John Doe",
+                        "comment": "Loved the flavors!",
+                        "rating": 4.4,
+                        "date": "2025-08-18"
+                    },
+                    {
+                        "user": "David Brown",
+                        "comment": "Loved the flavors!",
+                        "rating": 4.6,
+                        "date": "2025-08-16"
+                    },
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 5.0,
+                        "date": "2025-08-16"
+                    }
+                ]
             },
             {
                 "itemId": 12,
@@ -131,10 +391,25 @@
                 "category": "lunch",
                 "price": 160,
                 "description": "Spicy chicken curry with rice.",
-                "image": "https://example.com/images/chickencurry.jpg",
+                "image": "https://www.whiskaffair.com/wp-content/uploads/2021/10/Andhra-Chicken-Curry-2-3.jpg",
                 "rating": 4.6,
                 "available": true,
-                "stock": 35
+                "stock": 35,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "Ava Martinez",
+                        "comment": "Not as expected, but okay.",
+                        "rating": 3.6,
+                        "date": "2025-08-19"
+                    },
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Crispy and well cooked.",
+                        "rating": 4.9,
+                        "date": "2025-07-31"
+                    }
+                ]
             },
             {
                 "itemId": 13,
@@ -142,10 +417,25 @@
                 "category": "lunch",
                 "price": 120,
                 "description": "Creamy dal makhani served with naan.",
-                "image": "https://example.com/images/dalmakhani.jpg",
+                "image": "https://www.sharmispassions.com/wp-content/uploads/2012/05/dal-makhani7.jpg",
                 "rating": 4.4,
                 "available": true,
-                "stock": 50
+                "stock": 50,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Tasty and filling!",
+                        "rating": 4.3,
+                        "date": "2025-07-30"
+                    },
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 4.6,
+                        "date": "2025-08-03"
+                    }
+                ]
             },
             {
                 "itemId": 14,
@@ -153,10 +443,25 @@
                 "category": "lunch",
                 "price": 130,
                 "description": "Aromatic veg biryani with raita.",
-                "image": "https://example.com/images/vegbiryani.jpg",
+                "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/04/veg-biryani-recipe-500x500.jpg",
                 "rating": 4.3,
                 "available": true,
-                "stock": 45
+                "stock": 45,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "James Wilson",
+                        "comment": "Tasty and filling!",
+                        "rating": 4.0,
+                        "date": "2025-08-02"
+                    },
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Tasty and filling!",
+                        "rating": 4.5,
+                        "date": "2025-08-09"
+                    }
+                ]
             },
             {
                 "itemId": 15,
@@ -164,10 +469,37 @@
                 "category": "lunch",
                 "price": 170,
                 "description": "Crispy fried fish with tartar sauce.",
-                "image": "https://example.com/images/fishfry.jpg",
+                "image": "https://myfoodstory.com/wp-content/uploads/2024/11/Amritsari-Fish-Fry-Air-Fryer-3.jpg",
                 "rating": 4.5,
                 "available": true,
-                "stock": 25
+                "stock": 25,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 4.5,
+                        "date": "2025-07-28"
+                    },
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Delicious and fresh!",
+                        "rating": 4.3,
+                        "date": "2025-07-29"
+                    },
+                    {
+                        "user": "James Wilson",
+                        "comment": "Not as expected, but okay.",
+                        "rating": 4.6,
+                        "date": "2025-08-01"
+                    },
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Tasty and filling!",
+                        "rating": 3.7,
+                        "date": "2025-07-29"
+                    }
+                ]
             },
             {
                 "itemId": 16,
@@ -175,10 +507,37 @@
                 "category": "dinner",
                 "price": 180,
                 "description": "Rich butter chicken with naan.",
-                "image": "https://example.com/images/butterchicken.jpg",
+                "image": "https://www.missionfoods.com/wp-content/uploads/2022/06/easy-butter-chicken-naan.jpg",
                 "rating": 4.7,
                 "available": true,
-                "stock": 30
+                "stock": 30,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Delicious and fresh!",
+                        "rating": 3.5,
+                        "date": "2025-07-28"
+                    },
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Loved the flavors!",
+                        "rating": 4.9,
+                        "date": "2025-08-08"
+                    },
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Would definitely order again.",
+                        "rating": 4.5,
+                        "date": "2025-08-02"
+                    },
+                    {
+                        "user": "David Brown",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 3.9,
+                        "date": "2025-08-04"
+                    }
+                ]
             },
             {
                 "itemId": 17,
@@ -186,10 +545,25 @@
                 "category": "dinner",
                 "price": 200,
                 "description": "Spicy mutton rogan josh.",
-                "image": "https://example.com/images/roganjosh.jpg",
+                "image": "https://www.whiskaffair.com/wp-content/uploads/2019/02/Mutton-Rogan-Josh-2-3.jpg",
                 "rating": 4.6,
                 "available": true,
-                "stock": 20
+                "stock": 20,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Loved the flavors!",
+                        "rating": 4.4,
+                        "date": "2025-08-21"
+                    },
+                    {
+                        "user": "Sophia Lee",
+                        "comment": "Tasty and filling!",
+                        "rating": 3.9,
+                        "date": "2025-07-27"
+                    }
+                ]
             },
             {
                 "itemId": 18,
@@ -197,10 +571,25 @@
                 "category": "dinner",
                 "price": 150,
                 "description": "Paneer cooked in spinach gravy.",
-                "image": "https://example.com/images/palakpaneer.jpg",
+                "image": "https://www.cookwithmanali.com/wp-content/uploads/2019/08/Palak-Paneer.jpg",
                 "rating": 4.4,
                 "available": true,
-                "stock": 35
+                "stock": 35,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 5.0,
+                        "date": "2025-08-04"
+                    },
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Delicious and fresh!",
+                        "rating": 4.2,
+                        "date": "2025-08-09"
+                    }
+                ]
             },
             {
                 "itemId": 19,
@@ -208,10 +597,37 @@
                 "category": "dinner",
                 "price": 40,
                 "description": "Soft and fluffy naan bread.",
-                "image": "https://example.com/images/naan.jpg",
+                "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/butter-naan-500x500.jpg",
                 "rating": 4.3,
                 "available": true,
-                "stock": 100
+                "stock": 100,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "John Doe",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 4.8,
+                        "date": "2025-08-11"
+                    },
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Would definitely order again.",
+                        "rating": 4.5,
+                        "date": "2025-08-19"
+                    },
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Delicious and fresh!",
+                        "rating": 3.5,
+                        "date": "2025-08-17"
+                    },
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 4.6,
+                        "date": "2025-08-01"
+                    }
+                ]
             },
             {
                 "itemId": 20,
@@ -219,10 +635,37 @@
                 "category": "dinner",
                 "price": 100,
                 "description": "Fragrant rice pulao with vegetables.",
-                "image": "https://example.com/images/ricepulao.jpg",
+                "image": "https://cloveandcumin.com/wp-content/uploads/2024/03/Vegetable-Pulav-Recipe-Veg-Polao-Pulao-Rice.jpg",
                 "rating": 4.2,
                 "available": true,
-                "stock": 60
+                "stock": 60,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 4.0,
+                        "date": "2025-07-28"
+                    },
+                    {
+                        "user": "Sophia Lee",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 3.8,
+                        "date": "2025-08-23"
+                    },
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Not as expected, but okay.",
+                        "rating": 3.6,
+                        "date": "2025-08-08"
+                    },
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Crispy and well cooked.",
+                        "rating": 4.8,
+                        "date": "2025-08-13"
+                    }
+                ]
             }
         ]
     },
@@ -230,6 +673,11 @@
         "restaurant": "Urban Eats",
         "restaurantId": 2,
         "location": "Uptown",
+        "address": "456 Elm St, Uptown",
+        "contact": "+0987654321",
+        "cuisine": "Italian, Fast Food",
+        "rating": 4.5,
+        "timings": "10:00 AM - 11:00 PM",
         "items": [
             {
                 "itemId": 21,
@@ -237,10 +685,31 @@
                 "category": "fast food",
                 "price": 130,
                 "description": "Classic cheeseburger with cheddar cheese.",
-                "image": "https://example.com/images/cheeseburger.jpg",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cheeseburger.jpg/1200px-Cheeseburger.jpg",
                 "rating": 4.6,
                 "available": true,
-                "stock": 40
+                "stock": 40,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "David Brown",
+                        "comment": "Delicious and fresh!",
+                        "rating": 4.0,
+                        "date": "2025-08-19"
+                    },
+                    {
+                        "user": "David Brown",
+                        "comment": "Tasty and filling!",
+                        "rating": 3.8,
+                        "date": "2025-07-25"
+                    },
+                    {
+                        "user": "Ava Martinez",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 3.7,
+                        "date": "2025-08-03"
+                    }
+                ]
             },
             {
                 "itemId": 22,
@@ -248,10 +717,31 @@
                 "category": "fast food",
                 "price": 110,
                 "description": "Grilled chicken sandwich with mayo.",
-                "image": "https://example.com/images/chicken_sandwich.jpg",
+                "image": "https://www.cucinabyelena.com/wp-content/uploads/2024/03/Ultimate-Grilled-Chicken-Sandwich-Recipe-16-scaled.jpg",
                 "rating": 4.3,
                 "available": true,
-                "stock": 60
+                "stock": 60,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "Sophia Lee",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 4.7,
+                        "date": "2025-08-21"
+                    },
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Good portion size.",
+                        "rating": 3.7,
+                        "date": "2025-08-10"
+                    },
+                    {
+                        "user": "David Brown",
+                        "comment": "Delicious and fresh!",
+                        "rating": 4.6,
+                        "date": "2025-07-27"
+                    }
+                ]
             },
             {
                 "itemId": 23,
@@ -259,10 +749,37 @@
                 "category": "fast food",
                 "price": 120,
                 "description": "Healthy wrap with mixed vegetables.",
-                "image": "https://example.com/images/veggie_wrap.jpg",
+                "image": "https://kristineskitchenblog.com/wp-content/uploads/2024/04/veggie-wrap-11-2.jpg",
                 "rating": 4.3,
                 "available": true,
-                "stock": 50
+                "stock": 50,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 4.7,
+                        "date": "2025-08-17"
+                    },
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Loved the flavors!",
+                        "rating": 4.5,
+                        "date": "2025-07-30"
+                    },
+                    {
+                        "user": "Sophia Lee",
+                        "comment": "Tasty and filling!",
+                        "rating": 4.4,
+                        "date": "2025-07-28"
+                    },
+                    {
+                        "user": "James Wilson",
+                        "comment": "Loved the flavors!",
+                        "rating": 4.6,
+                        "date": "2025-07-29"
+                    }
+                ]
             },
             {
                 "itemId": 24,
@@ -270,10 +787,31 @@
                 "category": "fast food",
                 "price": 100,
                 "description": "Mexican tacos with beef and salsa.",
-                "image": "https://example.com/images/tacos.jpg",
+                "image": "https://static01.nyt.com/images/2025/05/14/multimedia/kf-easy-chicken-tacos-gwfh/kf-easy-chicken-tacos-gwfh-googleFourByThree-v2.jpg",
                 "rating": 4.4,
                 "available": true,
-                "stock": 50
+                "stock": 50,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Good portion size.",
+                        "rating": 4.0,
+                        "date": "2025-07-28"
+                    },
+                    {
+                        "user": "Sophia Lee",
+                        "comment": "Delicious and fresh!",
+                        "rating": 5.0,
+                        "date": "2025-08-17"
+                    },
+                    {
+                        "user": "John Doe",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 3.7,
+                        "date": "2025-08-02"
+                    }
+                ]
             },
             {
                 "itemId": 25,
@@ -281,10 +819,25 @@
                 "category": "fast food",
                 "price": 70,
                 "description": "Crispy onion rings.",
-                "image": "https://example.com/images/onionrings.jpg",
+                "image": "https://www.recipeworkbook.com/wp-content/uploads/2021/09/onion-rings3-480x270.jpg",
                 "rating": 4.2,
                 "available": true,
-                "stock": 80
+                "stock": 80,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 4.5,
+                        "date": "2025-08-09"
+                    },
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Would definitely order again.",
+                        "rating": 4.5,
+                        "date": "2025-07-27"
+                    }
+                ]
             },
             {
                 "itemId": 26,
@@ -292,10 +845,31 @@
                 "category": "fast food",
                 "price": 90,
                 "description": "Fried mozzarella sticks.",
-                "image": "https://example.com/images/mozzarellasticks.jpg",
+                "image": "https://easyweeknightrecipes.com/wp-content/uploads/2024/04/Mozzarella-Sticks_0013.jpg",
                 "rating": 4.3,
                 "available": true,
-                "stock": 70
+                "stock": 70,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "David Brown",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 4.5,
+                        "date": "2025-08-13"
+                    },
+                    {
+                        "user": "Olivia Garcia",
+                        "comment": "Delicious and fresh!",
+                        "rating": 3.6,
+                        "date": "2025-08-11"
+                    },
+                    {
+                        "user": "James Wilson",
+                        "comment": "Good portion size.",
+                        "rating": 4.5,
+                        "date": "2025-08-09"
+                    }
+                ]
             },
             {
                 "itemId": 27,
@@ -303,10 +877,31 @@
                 "category": "snack",
                 "price": 50,
                 "description": "Potato chips.",
-                "image": "https://example.com/images/chips.jpg",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Potato-Chips.jpg/1200px-Potato-Chips.jpg",
                 "rating": 4.1,
                 "available": true,
-                "stock": 100
+                "stock": 100,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Crispy and well cooked.",
+                        "rating": 4.4,
+                        "date": "2025-07-28"
+                    },
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Delicious and fresh!",
+                        "rating": 4.5,
+                        "date": "2025-08-15"
+                    },
+                    {
+                        "user": "Olivia Garcia",
+                        "comment": "Delicious and fresh!",
+                        "rating": 3.8,
+                        "date": "2025-07-31"
+                    }
+                ]
             },
             {
                 "itemId": 28,
@@ -314,10 +909,31 @@
                 "category": "snack",
                 "price": 80,
                 "description": "Fresh fruit salad.",
-                "image": "https://example.com/images/fruitsalad.jpg",
+                "image": "https://fortheloveofcooking.net/wp-content/uploads/2013/05/DSC_4449.1.jpg",
                 "rating": 4.2,
                 "available": true,
-                "stock": 60
+                "stock": 60,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Would definitely order again.",
+                        "rating": 3.9,
+                        "date": "2025-08-06"
+                    },
+                    {
+                        "user": "John Doe",
+                        "comment": "Not as expected, but okay.",
+                        "rating": 4.7,
+                        "date": "2025-08-08"
+                    },
+                    {
+                        "user": "James Wilson",
+                        "comment": "Good portion size.",
+                        "rating": 4.2,
+                        "date": "2025-08-01"
+                    }
+                ]
             },
             {
                 "itemId": 29,
@@ -325,10 +941,25 @@
                 "category": "snack",
                 "price": 60,
                 "description": "Chocolate cupcakes.",
-                "image": "https://example.com/images/cupcakes.jpg",
+                "image": "https://cakemehometonight.com/wp-content/uploads/2020/08/Confetti-Cupcakes-19.jpg",
                 "rating": 4.3,
                 "available": true,
-                "stock": 40
+                "stock": 40,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "John Doe",
+                        "comment": "Good portion size.",
+                        "rating": 4.4,
+                        "date": "2025-08-07"
+                    },
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Not as expected, but okay.",
+                        "rating": 4.9,
+                        "date": "2025-08-03"
+                    }
+                ]
             },
             {
                 "itemId": 30,
@@ -336,10 +967,37 @@
                 "category": "snack",
                 "price": 40,
                 "description": "Fresh baked cookies.",
-                "image": "https://example.com/images/cookies.jpg",
+                "image": "https://images.aws.nestle.recipes/resized/5b069c3ed2feea79377014f6766fcd49_Original_NTH_Chocolate_Chip_Cookie_448_448.jpg",
                 "rating": 4.0,
                 "available": true,
-                "stock": 80
+                "stock": 80,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "James Wilson",
+                        "comment": "Tasty and filling!",
+                        "rating": 4.3,
+                        "date": "2025-07-30"
+                    },
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 4.8,
+                        "date": "2025-08-18"
+                    },
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 4.4,
+                        "date": "2025-07-25"
+                    },
+                    {
+                        "user": "Ava Martinez",
+                        "comment": "Good portion size.",
+                        "rating": 3.8,
+                        "date": "2025-08-09"
+                    }
+                ]
             },
             {
                 "itemId": 31,
@@ -347,10 +1005,25 @@
                 "category": "snack",
                 "price": 30,
                 "description": "Salted pretzels.",
-                "image": "https://example.com/images/pretzels.jpg",
+                "image": "https://southernbite.com/wp-content/uploads/2016/12/Crack-Pretzels-500x375.jpg",
                 "rating": 4.2,
                 "available": true,
-                "stock": 90
+                "stock": 90,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Sophia Lee",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 4.1,
+                        "date": "2025-08-05"
+                    },
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Delicious and fresh!",
+                        "rating": 4.3,
+                        "date": "2025-07-27"
+                    }
+                ]
             },
             {
                 "itemId": 32,
@@ -358,10 +1031,31 @@
                 "category": "lunch",
                 "price": 150,
                 "description": "Grilled chicken breast.",
-                "image": "https://example.com/images/grilledchicken.jpg",
+                "image": "https://www.onceuponachef.com/images/2020/05/best-grilled-chicken-scaled-500x500.jpg",
                 "rating": 4.5,
                 "available": true,
-                "stock": 50
+                "stock": 50,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "James Wilson",
+                        "comment": "Delicious and fresh!",
+                        "rating": 4.9,
+                        "date": "2025-08-18"
+                    },
+                    {
+                        "user": "Ava Martinez",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 4.0,
+                        "date": "2025-08-05"
+                    },
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Tasty and filling!",
+                        "rating": 4.6,
+                        "date": "2025-08-18"
+                    }
+                ]
             },
             {
                 "itemId": 33,
@@ -369,10 +1063,31 @@
                 "category": "lunch",
                 "price": 140,
                 "description": "Creamy Alfredo pasta.",
-                "image": "https://example.com/images/pastaalfredo.jpg",
+                "image": "https://www.vanillabeancuisine.com/wp-content/uploads/2024/12/Spaghetti-Alfredo-2nd-Set-7.jpg",
                 "rating": 4.6,
                 "available": true,
-                "stock": 40
+                "stock": 40,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "James Wilson",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 4.6,
+                        "date": "2025-07-31"
+                    },
+                    {
+                        "user": "Ava Martinez",
+                        "comment": "Not as expected, but okay.",
+                        "rating": 3.6,
+                        "date": "2025-08-23"
+                    },
+                    {
+                        "user": "John Doe",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 4.9,
+                        "date": "2025-08-09"
+                    }
+                ]
             },
             {
                 "itemId": 34,
@@ -380,10 +1095,25 @@
                 "category": "lunch",
                 "price": 120,
                 "description": "Vegetable wrap with sauce.",
-                "image": "https://example.com/images/vegwrap.jpg",
+                "image": "https://kristineskitchenblog.com/wp-content/uploads/2024/04/veggie-wrap-11-2.jpg",
                 "rating": 4.4,
                 "available": true,
-                "stock": 60
+                "stock": 60,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Tasty and filling!",
+                        "rating": 4.1,
+                        "date": "2025-08-02"
+                    },
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 4.6,
+                        "date": "2025-08-07"
+                    }
+                ]
             },
             {
                 "itemId": 35,
@@ -391,10 +1121,31 @@
                 "category": "lunch",
                 "price": 130,
                 "description": "Egg curry with rice.",
-                "image": "https://example.com/images/eggcurry.jpg",
+                "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/egg-curry-recipe.jpg",
                 "rating": 4.3,
                 "available": true,
-                "stock": 45
+                "stock": 45,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Delicious and fresh!",
+                        "rating": 3.8,
+                        "date": "2025-08-16"
+                    },
+                    {
+                        "user": "John Doe",
+                        "comment": "Good portion size.",
+                        "rating": 4.1,
+                        "date": "2025-08-07"
+                    },
+                    {
+                        "user": "David Brown",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 4.5,
+                        "date": "2025-08-09"
+                    }
+                ]
             },
             {
                 "itemId": 36,
@@ -402,10 +1153,37 @@
                 "category": "lunch",
                 "price": 140,
                 "description": "Paneer in creamy tomato gravy.",
-                "image": "https://example.com/images/paneerbuttermasala.jpg",
+                "image": "https://www.cookwithmanali.com/wp-content/uploads/2019/05/Paneer-Butter-Masala-500x500.jpg",
                 "rating": 4.5,
                 "available": true,
-                "stock": 40
+                "stock": 40,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "James Wilson",
+                        "comment": "Crispy and well cooked.",
+                        "rating": 4.4,
+                        "date": "2025-08-02"
+                    },
+                    {
+                        "user": "David Brown",
+                        "comment": "Good portion size.",
+                        "rating": 4.7,
+                        "date": "2025-08-18"
+                    },
+                    {
+                        "user": "John Doe",
+                        "comment": "Delicious and fresh!",
+                        "rating": 4.5,
+                        "date": "2025-08-17"
+                    },
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Would definitely order again.",
+                        "rating": 5.0,
+                        "date": "2025-08-15"
+                    }
+                ]
             },
             {
                 "itemId": 37,
@@ -413,10 +1191,37 @@
                 "category": "dinner",
                 "price": 200,
                 "description": "Grilled steak with sauce.",
-                "image": "https://example.com/images/steak.jpg",
+                "image": "https://hips.hearstapps.com/hmg-prod/images/how-to-cook-steak-in-the-oven-index-66a3eda7b9f52.jpg?crop=0.502xw:1.00xh;0.147xw,0&resize=1200:*",
                 "rating": 4.7,
                 "available": true,
-                "stock": 30
+                "stock": 30,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "James Wilson",
+                        "comment": "Tasty and filling!",
+                        "rating": 4.8,
+                        "date": "2025-08-10"
+                    },
+                    {
+                        "user": "John Doe",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 3.7,
+                        "date": "2025-08-10"
+                    },
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Tasty and filling!",
+                        "rating": 4.9,
+                        "date": "2025-08-17"
+                    },
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 4.3,
+                        "date": "2025-07-31"
+                    }
+                ]
             },
             {
                 "itemId": 38,
@@ -424,10 +1229,25 @@
                 "category": "dinner",
                 "price": 220,
                 "description": "Grilled salmon fillet.",
-                "image": "https://example.com/images/grilledsalmon.jpg",
+                "image": "https://www.dinneratthezoo.com/wp-content/uploads/2019/05/grilled-salmon-final-2.jpg",
                 "rating": 4.6,
                 "available": true,
-                "stock": 20
+                "stock": 20,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Tasty and filling!",
+                        "rating": 4.5,
+                        "date": "2025-07-30"
+                    },
+                    {
+                        "user": "Sophia Lee",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 4.3,
+                        "date": "2025-07-28"
+                    }
+                ]
             },
             {
                 "itemId": 39,
@@ -435,10 +1255,25 @@
                 "category": "dinner",
                 "price": 120,
                 "description": "Yellow dal with tadka.",
-                "image": "https://example.com/images/daltadka.jpg",
+                "image": "https://www.cookwithmanali.com/wp-content/uploads/2014/08/Dal-Tadka.jpg",
                 "rating": 4.4,
                 "available": true,
-                "stock": 35
+                "stock": 35,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "John Doe",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 3.9,
+                        "date": "2025-07-31"
+                    },
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Good portion size.",
+                        "rating": 3.9,
+                        "date": "2025-08-22"
+                    }
+                ]
             },
             {
                 "itemId": 40,
@@ -446,10 +1281,37 @@
                 "category": "dinner",
                 "price": 20,
                 "description": "Whole wheat chapati.",
-                "image": "https://example.com/images/chapati.jpg",
+                "image": "https://www.allrecipes.com/thmb/zDjlMAIFpo3UDAZYLiErkruzMQE=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/AR-85469-indian-chapati-bread-DDMFS-4x3-d2692c11f56b4546b35dccd42ace1958.jpg",
                 "rating": 4.3,
                 "available": true,
-                "stock": 100
+                "stock": 100,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Crispy and well cooked.",
+                        "rating": 4.5,
+                        "date": "2025-08-01"
+                    },
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Loved the flavors!",
+                        "rating": 4.7,
+                        "date": "2025-07-29"
+                    },
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Not as expected, but okay.",
+                        "rating": 4.2,
+                        "date": "2025-08-08"
+                    },
+                    {
+                        "user": "David Brown",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 4.2,
+                        "date": "2025-08-10"
+                    }
+                ]
             }
         ]
     },
@@ -457,6 +1319,11 @@
         "restaurant": "Taste Hub",
         "restaurantId": 3,
         "location": "Midtown",
+        "address": "789 Oak St, Midtown",
+        "contact": "+1122334455",
+        "cuisine": "Chinese, Fast Food",
+        "rating": 4.4,
+        "timings": "10:00 AM - 11:00 PM",
         "items": [
             {
                 "itemId": 41,
@@ -464,10 +1331,25 @@
                 "category": "fast food",
                 "price": 150,
                 "description": "Pizza loaded with fresh vegetables.",
-                "image": "https://example.com/images/veg_pizza.jpg",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/1200px-Pizza-3007395.jpg",
                 "rating": 4.2,
                 "available": true,
-                "stock": 30
+                "stock": 30,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Loved the flavors!",
+                        "rating": 3.9,
+                        "date": "2025-08-09"
+                    },
+                    {
+                        "user": "James Wilson",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 5.0,
+                        "date": "2025-07-25"
+                    }
+                ]
             },
             {
                 "itemId": 42,
@@ -475,10 +1357,37 @@
                 "category": "fast food",
                 "price": 125,
                 "description": "Burger with crispy chicken patty.",
-                "image": "https://example.com/images/chicken_burger.jpg",
+                "image": "https://hips.hearstapps.com/hmg-prod/images/chicken-burgers-index-667b185b5f528.jpg?crop=0.500xw:1.00xh;0.282xw,0&resize=1200:*",
                 "rating": 4.5,
                 "available": true,
-                "stock": 40
+                "stock": 40,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 3.7,
+                        "date": "2025-08-18"
+                    },
+                    {
+                        "user": "Sophia Lee",
+                        "comment": "Crispy and well cooked.",
+                        "rating": 3.9,
+                        "date": "2025-08-05"
+                    },
+                    {
+                        "user": "Olivia Garcia",
+                        "comment": "Delicious and fresh!",
+                        "rating": 4.7,
+                        "date": "2025-08-12"
+                    },
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Not as expected, but okay.",
+                        "rating": 3.5,
+                        "date": "2025-08-08"
+                    }
+                ]
             },
             {
                 "itemId": 43,
@@ -486,10 +1395,25 @@
                 "category": "fast food",
                 "price": 80,
                 "description": "Sandwich with fresh veggies.",
-                "image": "https://example.com/images/veg_sandwich.jpg",
+                "image": "https://www.thefullhelping.com/wp-content/uploads/2023/10/pickled-vegetable-smoky-tofu-sandwiches-7.jpg",
                 "rating": 4.1,
                 "available": true,
-                "stock": 60
+                "stock": 60,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Would definitely order again.",
+                        "rating": 4.1,
+                        "date": "2025-08-20"
+                    },
+                    {
+                        "user": "Ava Martinez",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 4.4,
+                        "date": "2025-08-16"
+                    }
+                ]
             },
             {
                 "itemId": 44,
@@ -497,10 +1421,37 @@
                 "category": "fast food",
                 "price": 100,
                 "description": "Chicken roll with spicy sauce.",
-                "image": "https://example.com/images/chicken_roll.jpg",
+                "image": "https://madscookhouse.com/wp-content/uploads/2021/02/Chicken-Kathi-Roll-500x500.jpg",
                 "rating": 4.3,
                 "available": true,
-                "stock": 50
+                "stock": 50,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "Ava Martinez",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 3.9,
+                        "date": "2025-07-31"
+                    },
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 3.6,
+                        "date": "2025-08-03"
+                    },
+                    {
+                        "user": "David Brown",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 4.1,
+                        "date": "2025-08-19"
+                    },
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 3.7,
+                        "date": "2025-08-16"
+                    }
+                ]
             },
             {
                 "itemId": 45,
@@ -508,10 +1459,31 @@
                 "category": "fast food",
                 "price": 70,
                 "description": "Sweet French toast.",
-                "image": "https://example.com/images/french_toast.jpg",
+                "image": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2024-04-french-toast%2Ffrench-toast-COMP",
                 "rating": 4.2,
                 "available": true,
-                "stock": 80
+                "stock": 80,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Would definitely order again.",
+                        "rating": 4.7,
+                        "date": "2025-08-12"
+                    },
+                    {
+                        "user": "Sophia Lee",
+                        "comment": "Tasty and filling!",
+                        "rating": 4.1,
+                        "date": "2025-08-07"
+                    },
+                    {
+                        "user": "Olivia Garcia",
+                        "comment": "Not as expected, but okay.",
+                        "rating": 4.6,
+                        "date": "2025-07-29"
+                    }
+                ]
             },
             {
                 "itemId": 46,
@@ -519,10 +1491,31 @@
                 "category": "snack",
                 "price": 60,
                 "description": "Paneer fritters.",
-                "image": "https://example.com/images/paneer_pakora.jpg",
+                "image": "https://cdn.indiaphile.info/wp-content/uploads/2023/01/stp-paneer-pakora-4513.jpg?width=1200&format=webp",
                 "rating": 4.3,
                 "available": true,
-                "stock": 70
+                "stock": 70,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Ava Martinez",
+                        "comment": "Would definitely order again.",
+                        "rating": 4.1,
+                        "date": "2025-08-08"
+                    },
+                    {
+                        "user": "Emily Smith",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 4.0,
+                        "date": "2025-08-15"
+                    },
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 4.8,
+                        "date": "2025-08-18"
+                    }
+                ]
             },
             {
                 "itemId": 47,
@@ -530,10 +1523,25 @@
                 "category": "snack",
                 "price": 50,
                 "description": "Vegetable cutlets.",
-                "image": "https://example.com/images/veg_cutlet.jpg",
+                "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2023/06/cutlet-recipe-veg-cutlet.jpg",
                 "rating": 4.1,
                 "available": true,
-                "stock": 100
+                "stock": 100,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 4.6,
+                        "date": "2025-08-18"
+                    },
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Loved the flavors!",
+                        "rating": 4.7,
+                        "date": "2025-08-13"
+                    }
+                ]
             },
             {
                 "itemId": 48,
@@ -541,10 +1549,25 @@
                 "category": "snack",
                 "price": 40,
                 "description": "Spicy corn chaat.",
-                "image": "https://example.com/images/corn_chaat.jpg",
+                "image": "https://www.funfoodfrolic.com/wp-content/uploads/2022/07/Corn-Chaat-Blog-500x500.jpg",
                 "rating": 4.2,
                 "available": true,
-                "stock": 60
+                "stock": 60,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "James Wilson",
+                        "comment": "Would definitely order again.",
+                        "rating": 4.1,
+                        "date": "2025-08-02"
+                    },
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Delicious and fresh!",
+                        "rating": 4.1,
+                        "date": "2025-08-18"
+                    }
+                ]
             },
             {
                 "itemId": 49,
@@ -552,10 +1575,25 @@
                 "category": "snack",
                 "price": 30,
                 "description": "Crunchy bread sticks.",
-                "image": "https://example.com/images/bread_sticks.jpg",
+                "image": "https://www.number-2-pencil.com/wp-content/uploads/2023/02/Garlic-Breadsticks-11-2.jpg",
                 "rating": 4.0,
                 "available": true,
-                "stock": 80
+                "stock": 80,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Olivia Garcia",
+                        "comment": "Not as expected, but okay.",
+                        "rating": 4.8,
+                        "date": "2025-07-26"
+                    },
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Crispy and well cooked.",
+                        "rating": 3.5,
+                        "date": "2025-08-17"
+                    }
+                ]
             },
             {
                 "itemId": 50,
@@ -563,10 +1601,37 @@
                 "category": "snack",
                 "price": 40,
                 "description": "Veg puff pastry.",
-                "image": "https://example.com/images/veg_puff.jpg",
+                "image": "https://carveyourcraving.com/wp-content/uploads/2021/11/veg-puff.jpg",
                 "rating": 4.2,
                 "available": true,
-                "stock": 90
+                "stock": 90,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Ava Martinez",
+                        "comment": "Would definitely order again.",
+                        "rating": 4.2,
+                        "date": "2025-08-05"
+                    },
+                    {
+                        "user": "James Wilson",
+                        "comment": "Crispy and well cooked.",
+                        "rating": 3.7,
+                        "date": "2025-08-02"
+                    },
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Tasty and filling!",
+                        "rating": 4.1,
+                        "date": "2025-08-16"
+                    },
+                    {
+                        "user": "Olivia Garcia",
+                        "comment": "Crispy and well cooked.",
+                        "rating": 3.9,
+                        "date": "2025-08-08"
+                    }
+                ]
             },
             {
                 "itemId": 51,
@@ -574,10 +1639,25 @@
                 "category": "lunch",
                 "price": 160,
                 "description": "Spicy chicken curry.",
-                "image": "https://example.com/images/chicken_curry.jpg",
+                "image": "https://www.whiskaffair.com/wp-content/uploads/2021/10/Andhra-Chicken-Curry-2-3.jpg",
                 "rating": 4.5,
                 "available": true,
-                "stock": 50
+                "stock": 50,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 4.8,
+                        "date": "2025-08-19"
+                    },
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 4.1,
+                        "date": "2025-07-25"
+                    }
+                ]
             },
             {
                 "itemId": 52,
@@ -585,10 +1665,25 @@
                 "category": "lunch",
                 "price": 120,
                 "description": "Vegetable pulao.",
-                "image": "https://example.com/images/veg_pulao.jpg",
+                "image": "https://www.sharmispassions.com/wp-content/uploads/2014/07/VegPulao1.jpg",
                 "rating": 4.6,
                 "available": true,
-                "stock": 40
+                "stock": 40,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Tasty and filling!",
+                        "rating": 4.3,
+                        "date": "2025-08-05"
+                    },
+                    {
+                        "user": "Olivia Garcia",
+                        "comment": "Good portion size.",
+                        "rating": 4.3,
+                        "date": "2025-08-18"
+                    }
+                ]
             },
             {
                 "itemId": 53,
@@ -596,10 +1691,31 @@
                 "category": "lunch",
                 "price": 110,
                 "description": "Dal fry with spices.",
-                "image": "https://example.com/images/dal_fry.jpg",
+                "image": "https://shwetainthekitchen.com/wp-content/uploads/2021/12/Dal-Fry-Recipe.jpg",
                 "rating": 4.4,
                 "available": true,
-                "stock": 60
+                "stock": 60,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Loved the flavors!",
+                        "rating": 4.3,
+                        "date": "2025-08-11"
+                    },
+                    {
+                        "user": "David Brown",
+                        "comment": "Good portion size.",
+                        "rating": 3.8,
+                        "date": "2025-07-28"
+                    },
+                    {
+                        "user": "James Wilson",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 4.5,
+                        "date": "2025-08-04"
+                    }
+                ]
             },
             {
                 "itemId": 54,
@@ -607,10 +1723,31 @@
                 "category": "lunch",
                 "price": 130,
                 "description": "Egg biryani with raita.",
-                "image": "https://example.com/images/egg_biryani.jpg",
+                "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2020/02/instant-pot-egg-biryani-500x500.jpg",
                 "rating": 4.3,
                 "available": true,
-                "stock": 45
+                "stock": 45,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "David Brown",
+                        "comment": "Not as expected, but okay.",
+                        "rating": 4.4,
+                        "date": "2025-08-23"
+                    },
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Good portion size.",
+                        "rating": 5.0,
+                        "date": "2025-08-01"
+                    },
+                    {
+                        "user": "James Wilson",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 4.8,
+                        "date": "2025-08-21"
+                    }
+                ]
             },
             {
                 "itemId": 55,
@@ -618,10 +1755,31 @@
                 "category": "lunch",
                 "price": 140,
                 "description": "Paneer bhurji with spices.",
-                "image": "https://example.com/images/paneer_bhurji.jpg",
+                "image": "https://www.cookwithmanali.com/wp-content/uploads/2019/06/Paneer-Bhurji-Recipe-Vegetarian-Indian-Cottage-Cheese-Scramble.jpg",
                 "rating": 4.5,
                 "available": true,
-                "stock": 40
+                "stock": 40,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Michael Johnson",
+                        "comment": "Tasty and filling!",
+                        "rating": 4.7,
+                        "date": "2025-08-16"
+                    },
+                    {
+                        "user": "Olivia Garcia",
+                        "comment": "Good portion size.",
+                        "rating": 4.8,
+                        "date": "2025-07-30"
+                    },
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Good portion size.",
+                        "rating": 4.1,
+                        "date": "2025-08-09"
+                    }
+                ]
             },
             {
                 "itemId": 56,
@@ -629,10 +1787,37 @@
                 "category": "dinner",
                 "price": 180,
                 "description": "Chicken korma with naan.",
-                "image": "https://example.com/images/chicken_korma.jpg",
+                "image": "https://www.eitanbernath.com/wp-content/uploads/2021/12/Eitan-Bernath-Chicken-Korma-.jpg",
                 "rating": 4.7,
                 "available": true,
-                "stock": 30
+                "stock": 30,
+                "type": "non-veg",
+                "reviews": [
+                    {
+                        "user": "Sophia Lee",
+                        "comment": "Perfect for a quick meal.",
+                        "rating": 3.9,
+                        "date": "2025-08-16"
+                    },
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Would definitely order again.",
+                        "rating": 4.1,
+                        "date": "2025-07-25"
+                    },
+                    {
+                        "user": "James Wilson",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 4.4,
+                        "date": "2025-08-14"
+                    },
+                    {
+                        "user": "Ava Martinez",
+                        "comment": "Would definitely order again.",
+                        "rating": 3.6,
+                        "date": "2025-07-26"
+                    }
+                ]
             },
             {
                 "itemId": 57,
@@ -640,10 +1825,37 @@
                 "category": "dinner",
                 "price": 150,
                 "description": "Veg handi with spices.",
-                "image": "https://example.com/images/veg_handi.jpg",
+                "image": "https://flavorquotient.com/wp-content/uploads/2025/03/Veg-Handi-FQ-9-1.jpg",
                 "rating": 4.6,
                 "available": true,
-                "stock": 20
+                "stock": 20,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Crispy and well cooked.",
+                        "rating": 4.1,
+                        "date": "2025-08-21"
+                    },
+                    {
+                        "user": "David Brown",
+                        "comment": "A bit too oily for my taste.",
+                        "rating": 3.7,
+                        "date": "2025-08-10"
+                    },
+                    {
+                        "user": "David Brown",
+                        "comment": "Loved the flavors!",
+                        "rating": 4.5,
+                        "date": "2025-08-20"
+                    },
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Would definitely order again.",
+                        "rating": 3.7,
+                        "date": "2025-08-16"
+                    }
+                ]
             },
             {
                 "itemId": 58,
@@ -651,10 +1863,25 @@
                 "category": "dinner",
                 "price": 40,
                 "description": "Butter naan bread.",
-                "image": "https://example.com/images/butter_naan.jpg",
+                "image": "https://fullofplants.com/wp-content/uploads/2023/05/Homemade-Naan-Bread-Restaurant-Style-Vegan-thumb-1.jpg",
                 "rating": 4.4,
                 "available": true,
-                "stock": 35
+                "stock": 35,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "James Wilson",
+                        "comment": "Good portion size.",
+                        "rating": 4.4,
+                        "date": "2025-08-11"
+                    },
+                    {
+                        "user": "Ava Martinez",
+                        "comment": "Delicious and fresh!",
+                        "rating": 4.0,
+                        "date": "2025-07-26"
+                    }
+                ]
             },
             {
                 "itemId": 59,
@@ -662,10 +1889,37 @@
                 "category": "dinner",
                 "price": 60,
                 "description": "Sweet gulab jamun.",
-                "image": "https://example.com/images/gulab_jamun.jpg",
+                "image": "https://www.foodie-trail.com/wp-content/uploads/2020/04/PHOTO-2022-02-12-20-04-41_1.jpg",
                 "rating": 4.3,
                 "available": true,
-                "stock": 100
+                "stock": 100,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Emily Smith",
+                        "comment": "Loved the flavors!",
+                        "rating": 4.1,
+                        "date": "2025-08-11"
+                    },
+                    {
+                        "user": "James Wilson",
+                        "comment": "Delicious and fresh!",
+                        "rating": 4.7,
+                        "date": "2025-08-13"
+                    },
+                    {
+                        "user": "David Brown",
+                        "comment": "Loved the flavors!",
+                        "rating": 4.4,
+                        "date": "2025-07-31"
+                    },
+                    {
+                        "user": "Ava Martinez",
+                        "comment": "Could be spicier but overall nice.",
+                        "rating": 4.5,
+                        "date": "2025-07-28"
+                    }
+                ]
             },
             {
                 "itemId": 60,
@@ -673,10 +1927,25 @@
                 "category": "dinner",
                 "price": 130,
                 "description": "Malai kofta in creamy gravy.",
-                "image": "https://example.com/images/malai_kofta.jpg",
+                "image": "https://carameltintedlife.com/wp-content/uploads/2020/11/Malai-Kofta-1-of-1-9.jpg",
                 "rating": 4.2,
                 "available": true,
-                "stock": 60
+                "stock": 60,
+                "type": "veg",
+                "reviews": [
+                    {
+                        "user": "Ethan Davis",
+                        "comment": "Crispy and well cooked.",
+                        "rating": 4.7,
+                        "date": "2025-07-26"
+                    },
+                    {
+                        "user": "Mia Anderson",
+                        "comment": "Would definitely order again.",
+                        "rating": 3.6,
+                        "date": "2025-08-18"
+                    }
+                ]
             }
         ]
     }

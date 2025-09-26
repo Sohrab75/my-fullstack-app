@@ -26,10 +26,17 @@ app.get("/api/hello", (req, res) => {
   }
 });
 
+
 // Use restaurants router
 const restaurantRoutes = require('./routes/restaurants');
 app.use('/api/restaurants', restaurantRoutes);
 
+// Use auth router
+const authRoutes = require('./routes/loginRoute');
+app.use('/api/auth', authRoutes);
+
+const profilePictureRoutes = require('./routes/profilePictureRotes');
+app.use('/api/user', profilePictureRoutes);
 // ...existing code...
 
 app.listen(PORT, () => {
